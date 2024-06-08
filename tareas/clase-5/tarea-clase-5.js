@@ -22,6 +22,22 @@ $botonCalcular.onclick = function()
 //cuando el usuario haga click en el botón "calcular", mostrar el salario mensual
 // en una caja de texto deshabilitada. --> <input type="text" disabled id="salario-mensual"/>
 
+document.querySelector('#botonCalcular').onclick = function(){
+  const salarioAnual = Number(document.querySelector('#salario').value);
+  const salarioMensual = calcularSalarioMensual(salarioAnual);
+
+  document.querySelector('#calcular').value = salarioMensual;
+
+  return false;
+}
+function calcularSalarioMensual(salarioAnual){
+  return salarioAnual / 12 ;
+}
+
+
+
+
+
 //TAREA: En otro archivo html (no Index) y otro archivo js (no tarea-clase-5.js),
 // creá un formulario que capture el primer nombre, segundo nombre, apellido/s y edad del usuario
 // también vamos a crear un <h1> que diga Bienvenido!
@@ -56,3 +72,7 @@ Ejemplo form:
 // 2. obtener el número más pequeño y mostrarlo en un <em> pre-creado con el texto "El número más pequeño es..."
 // 3. obtener el número más grande y mostrarlo en un <em> pre-creado con el texto "El número más grande es..."
 // 4. obtener el número que más se repite y mostrarlo en un <em> pre-creado con el texto "El número más frecuente es..."
+
+// body{
+//  background-color: slategray;  
+//}
