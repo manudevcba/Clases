@@ -60,4 +60,3 @@ Ejemplo form:
 
 // body{
 //  background-color: slategray;  
-//}
