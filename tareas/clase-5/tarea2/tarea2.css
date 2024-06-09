@@ -1,0 +1,18 @@
+body{
+    background-color: slategray;
+   }
+   h1{
+       text-align: center;
+   }
+   form{
+       
+       color: beige;
+       text-align: center;
+       background-color: bisque;
+       padding: 50px;
+       margin: 0 750px;
+       background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1nz2oTnc68H2gib01b4fNK2jxYcTPzILDmg-_Fjn__eSSC3iPveDvW8qRtQ5XZ7TpmTU&usqp=CAU) ;
+   }   
+   #label{
+    color: aliceblue;
+   }
