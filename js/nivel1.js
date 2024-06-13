@@ -422,7 +422,7 @@
     El resultado de una comparación es un valor Booleano, lo podemos guardar en una variable así:
 
     const bool = (1 < 2);
-
+/
     Después podemos chequear si 'bool' es verdadero o falso (true o false) usando console.log
 
     console.log(bool); // Devuelve veradero (TRUE), porque 1 es menor a 2
@@ -434,7 +434,7 @@
 
     const elPesoEsEstable = false;
     let maradonaMejorQuePele = true;
-*/
+*
 
 
 // TAREA: usando el operador !, Intentá invertir una variable (de true a false, o de false a true) e imprimí el
@@ -455,6 +455,7 @@
     }    
     }
 */
+/*
 let tieneDocumento = prompt("¿Tiene documento? Ingrese si o no").toLowerCase();
 
 if (tieneDocumento === "si") {
@@ -469,9 +470,8 @@ if (tieneDocumento === "si") {
 }
 
 
-
-
 ////////////////////////////////////////////////////////////////////////////
 // Felicitaciones! Terminaste el Nivel 1 de la introducción a JavaScript! //
 // El siguiente nivel es el que está en nivel2.js                         //
 ////////////////////////////////////////////////////////////////////////////
+*/

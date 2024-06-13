@@ -1,18 +1,30 @@
 body{
     background-color: slategray;
+    
    }
    h1{
        text-align: center;
    }
    form{
+    
+    color: beige;
+    text-align: center;
+    background-color: rgba(255, 228, 196, 0.9); /* Hacer el fondo un poco transparente */
+    padding: 5vw; 
+    margin: 0 auto; 
+    width: 80%; 
+    max-width: 600px; 
+    box-sizing: border-box; 
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1nz2oTnc68H2gib01b4fNK2jxYcTPzILDmg-_Fjn__eSSC3iPveDvW8qRtQ5XZ7TpmTU&usqp=CAU');
+    background-size: cover; /* Ajustar la imagen de fondo */
+    background-position: center; /* Centrar la imagen de fondo */
+    border-radius: 10px; /* Añadir bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir sombra para profundidad */
+
        
-       color: beige;
-       text-align: center;
-       background-color: bisque;
-       padding: 50px;
-       margin: 0 750px;
-       background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1nz2oTnc68H2gib01b4fNK2jxYcTPzILDmg-_Fjn__eSSC3iPveDvW8qRtQ5XZ7TpmTU&usqp=CAU) ;
    }   
    #label{
     color: aliceblue;
    }
+
+   
